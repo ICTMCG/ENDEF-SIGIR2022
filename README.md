@@ -8,7 +8,7 @@ This is the official repository of the paper:
 >
 > *Proceedings of the 45nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022)*
 > 
-> Preprint: 
+> Preprint: https://arxiv.org/abs/2204.09484
 # Citation
 ```
 @inproceedings{ENDEF,
