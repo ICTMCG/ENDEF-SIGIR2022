@@ -2,7 +2,7 @@
 
 
 # Generalizing to the Future: Mitigating Entity Bias in Fake News Detection (ENDEF)
-This is the official implementation of our paper **Generalizing to the Future: Mitigating Entity Bias in Fake News Detection**, which has been accepted by SIGIR2022. [Paper]()
+This is the official implementation of our paper **Generalizing to the Future: Mitigating Entity Bias in Fake News Detection**, which has been accepted by SIGIR2022. [Paper](https://arxiv.org/abs/2204.09484)
 
 The wide dissemination of fake news is increasingly threatening both individuals and society. Fake news detection aims to train a model on the past news and detect fake news of the future. Though great efforts have been made, existing fake news detection methods overlooked the unintended entity bias in the real-world data, which seriously influences models' generalization ability to future data. For example, 97% of news pieces in 2010-2017 containing the entity 'Donald Trump' are real in our data, but the percentage falls down to merely 33% in 2018. This would lead the model trained on the former set to hardly generalize to the latter, as it tends to predict news pieces about 'Donald Trump' as real for lower training loss. In this paper, we propose an entity debiasing framework (**ENDEF**) which generalizes fake news detection models to the future data by mitigating entity bias from a cause-effect perspective. Based on the causal graph among entities, news contents, and news veracity, we separately model the contribution of each cause (entities and contents) during training. In the inference stage, we remove the direct effect of the entities to mitigate entity bias. Extensive offline experiments on the English and Chinese datasets demonstrate that the proposed framework can largely improve the performance of base fake news detectors, and online tests verify its superiority in practice. To the best of our knowledge, this is the first work to explicitly improve the generalization ability of fake news detection models to the future data.
 
@@ -83,20 +83,6 @@ Zhu, Yongchun, et al. "Generalizing to the Future: Mitigating Entity Bias in Fak
 
 or in bibtex style:
 
-=======
-# ENDEF-SIGIR2022
-
-This is the official repository of the paper:
-
-> **Generalizing to the Future: Mitigating Entity Bias in Fake News Detection**
->
-> Yongchun Zhu, Qiang Sheng, Juan Cao, Shuokai Li, Danding Wang, and Fuzhen Zhuang
->
-> *Proceedings of the 45nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022)*
-> 
-> Preprint: https://arxiv.org/abs/2204.09484
-# Citation
->>>>>>> 0fdd91f79f542498382acbc83eb3b5d919ba11f3
 ```
 @inproceedings{ENDEF,
     title = "Generalizing to the Future: Mitigating Entity Bias in Fake News Detection",
