@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 # Generalizing to the Future: Mitigating Entity Bias in Fake News Detection (ENDEF)
 This is the official implementation of our paper **Generalizing to the Future: Mitigating Entity Bias in Fake News Detection**, which has been accepted by SIGIR2022. [Paper](https://arxiv.org/abs/2204.09484)
 
